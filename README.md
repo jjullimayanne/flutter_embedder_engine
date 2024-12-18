@@ -1,5 +1,31 @@
 ## 🚗 Flutter Embedder Engine + GLFW: Painel Automotivo Digital
 
+
+### **🛠️ Estado Atual e Implementações Faltantes**
+
+| **Recurso**                           | **Status**         | **Descrição**                                                                 |
+|---------------------------------------|--------------------|------------------------------------------------------------------------------|
+| **Flutter Embedder Engine**           | ✅ Implementado    | Motor Flutter renderizando a aplicação com **GLFW** no C++.                  |
+| **GLFW como Host**                    | ✅ Implementado    | Host leve para gerenciar janelas e eventos gráficos no ambiente C++.         |
+| **CMake Build System**                | ✅ Implementado    | Compilação e organização de build para projetos em C++.                      |
+| **Simulação de Dados Automotivos**    | ✅ Implementado    | Simulação de velocidade, nível de combustível e alertas visuais.             |
+| **flutter_assets Gerados**            | ✅ Implementado    | Compilação dos assets Flutter necessários para renderização com o Engine.    |
+| **Otimização em Hardware Limitado**   | ❌ Faltante        | Reduzir consumo de CPU, GPU e memória para rodar em dispositivos restritos.  |
+| **Compilação Cruzada (Cross-Compile)**| ❌ Faltante        | Suporte para compilar o projeto em **ARM/RISC-V** ou outras arquiteturas.    |
+| **Integração com Sensores Reais**     | ❌ Faltante        | Leitura de dados de **CAN Bus**, **UART**, GPIO para dados automotivos reais.|
+| **Gerenciamento de Energia**          | ❌ Faltante        | Estratégias para reduzir consumo energético em dispositivos embarcados.      |
+| **Suporte a Tela Touchscreen**        | ❌ Faltante        | Adicionar interação via touchscreen para simular painéis automotivos reais.  |
+| **Validação em Hardware Real**        | ❌ Faltante        | Testar o projeto em **Raspberry Pi**, **BeagleBone**, ou hardware automotivo.|
+| **Streaming de Mídia Real**           | ❌ Faltante        | Suporte para reprodução de áudio e controle de mídia Bluetooth/USB.          |
+| **Sistema de Logs e Debugging**       | ❌ Faltante        | Adicionar logs eficientes e ferramentas de debugging para hardware real.     |
+
+---
+
+### **🔍 Observações**
+- ✅ **Implementado**: Funcionalidade já existente e testada.
+- ❌ **Faltante**: Funcionalidade necessária, mas ainda não implementada.
+
+
 ### Este projeto demonstra como usar o **Flutter Embedder Engine** em um ambiente **GLFW** para criar um **Painel Automotivo Digital** em um **sistema embarcado**.
 ---
 ## 📋 **Descrição do Projeto**
