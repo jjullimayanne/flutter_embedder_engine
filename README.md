@@ -30,6 +30,9 @@
 ---
 ## 📋 **Descrição do Projeto**
 
+![Untitled diagram-2024-12-18-034747](https://github.com/user-attachments/assets/0d4c0237-ce14-408f-9960-2976eac11cce)
+
+
 - **Objetivo**: Renderizar uma aplicação Flutter em um sistema personalizado utilizando o Flutter Engine Embedder.
 - **Host**: GLFW (gerenciador de janelas leve).
 - **Funcionalidades**:
