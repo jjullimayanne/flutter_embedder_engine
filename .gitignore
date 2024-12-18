@@ -3,6 +3,10 @@ flutter_assets/
 .pub/
 build/
 
+# Dart
+.dart_tool/
+.packages
+
 # CMake build artifacts
 CMakeFiles/
 CMakeCache.txt
@@ -21,3 +25,27 @@ Thumbs.db
 .idea/
 .vscode/
 *.iml
+*.sw?
+*.bak
+*.tmp
+
+# macOS specific
+*.DS_Store
+
+# Windows specific
+*.exe
+*.dll
+*.pdb
+*.db
+
+# Flutter Android/ iOS
+android/.gradle/
+android/local.properties
+ios/Pods/
+ios/.generated/
+*.xcuserstate
+*.xcworkspace
+
+# Other
+.env
+*.lock
