@@ -28,9 +28,12 @@ Aqui está o passo a passo detalhado de como o C++ é usado para integrar o Flut
 ## 1. O Flutter Engine é Escrito em C++
 O Flutter Engine é o motor principal do Flutter. Ele é responsável por:
 
-Desenhar a interface do usuário usando o motor de renderização Skia.
-Gerenciar a lógica do aplicativo escrita em Dart.
-Processar eventos como toques, teclas, etc.
+- Desenhar a interface do usuário usando o motor de renderização Skia.
+  
+- Gerenciar a lógica do aplicativo escrita em Dart.
+  
+- Processar eventos como toques, teclas, etc.
+  
 Esse motor é implementado em C++ para garantir desempenho máximo e ser compatível com várias plataformas.
 
 ## 2. O Host Embedder é Escrito em C++
