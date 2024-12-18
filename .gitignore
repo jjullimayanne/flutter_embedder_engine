@@ -1,0 +1,23 @@
+# Flutter generated files
+flutter_assets/
+.pub/
+build/
+
+# CMake build artifacts
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+build/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDEs and editors
+.idea/
+.vscode/
+*.iml

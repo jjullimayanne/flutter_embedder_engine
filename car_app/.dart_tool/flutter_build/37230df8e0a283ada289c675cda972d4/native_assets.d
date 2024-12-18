@@ -1,0 +1,1 @@
+ /Users/juli/Documents/flutter_car/car_app/.dart_tool/flutter_build/37230df8e0a283ada289c675cda972d4/native_assets.yaml: 
