@@ -72,7 +72,7 @@ Por que usar GLFW?
   
 - Suporta várias plataformas (Windows, macOS, Linux).
 
-##🔧 Fluxo de Funcionamento
+## 🔧 Fluxo de Funcionamento
 
 1 - O Host Embedder é escrito em C++ e faz o seguinte:
 
