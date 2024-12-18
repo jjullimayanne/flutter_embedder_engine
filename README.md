@@ -52,6 +52,7 @@
 
 O projeto é composto por:
 
+
 ## 1. O Flutter Engine:
 O Flutter Engine é o coração do Flutter. Ele é responsável por:
 
@@ -235,7 +236,8 @@ git checkout <SHA_DO_COMMIT>
 ~~~
 
 Instale o depot_tools (ferramentas necessárias para o build):
-~~~javascript
+
+~~~
 git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
 export PATH="$PATH:/path/to/depot_tools"
 
@@ -243,14 +245,14 @@ export PATH="$PATH:/path/to/depot_tools"
 
 Configure o gclient para sincronizar as dependências:
 
-~~~javascript
+~~~
 gclient config --unmanaged https://github.com/flutter/engine.git
 gclient sync
 
 ~~~
 Configure o build com gn:
 
-~~~javascript
+~~~
 ./flutter/tools/gn --runtime-mode=release --unoptimized
 
 ~~~
